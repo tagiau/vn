@@ -1,7 +1,7 @@
 # Site settings
 baseurl: "/vn"
 name: demo jekyll
-theme: "classic"
+default_ui: "classic"
 
 # Build settings
 markdown: kramdown

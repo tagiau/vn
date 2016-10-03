@@ -15,7 +15,7 @@
 				<ol>
 				{% for cat in page.categories %}
 					{% for post in site.categories[cat] limit:5%}
-						{% include themes/{{site.theme}}/viewlist.html %}
+						{% include themes/{{site.default_ui}}/viewlist.html %}
 					{% endfor %}
 				{% endfor %}
 				</ol>

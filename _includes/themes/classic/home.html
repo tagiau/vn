@@ -1,14 +1,14 @@
 <div class="container-fluid">
 <div class="row">
 {% for post in site.posts %}
-  {% include themes/{{site.theme}}/viewgrid.html %}
+  {% include themes/{{site.default_ui}}/viewgrid.html %}
 {% endfor %}
 </div>
 </div>
 <div class="container-fluid">
   <ol>
 {% for post in site.tags.hot %}
-  {% include themes/{{site.theme}}/viewlist.html %}
+  {% include themes/{{site.default_ui}}/viewlist.html %}
 {% endfor %}
   </ol>
 </div>
