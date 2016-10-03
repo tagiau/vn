@@ -1,8 +1,7 @@
 # Site settings
 baseurl: "/vn"
-asseturl: "/assets"
-name: tAgiAu
-theme: classic
+name: demo jekyll
+theme: "classic"
 
 # Build settings
 markdown: kramdown
