@@ -1,0 +1,12 @@
+# Site settings
+baseurl: "/vn"
+asseturl: "/assets"
+name: tAgiAu
+theme: classic
+
+# Build settings
+markdown: kramdown
+# permalink: ordinal
+permalink: /:categories/:title.html
+excerpt_separator: "\n\n"
+paginate: 12
