@@ -9,6 +9,11 @@
 <link href="apple-touch-icon.png" rel="apple-touch-icon">
 <link href="favicon.ico" rel="icon">
 <title>{{page.title}}</title>
+<style>
+img {
+    max-width: 100%;
+}
+</style>
 </head>
 <body>
 	<header id="navi" class="navbar navbar-default">
