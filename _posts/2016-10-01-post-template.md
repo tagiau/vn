@@ -1,14 +1,13 @@
 ---
 layout: post
-title: post template
+title: Bitcoin là gì ? Có nên đầu tư vào bitcoin hay không ?
 tags: ["Nhan"]
 thumb: http://placehold.it/100x100
 ---
-## **Bitcoin là gì ? Có nên đầu tư vào bitcoin hay không ?**
 Hình như dạo này bitcoin có về trở nên phổ biến mà không hiểu vì đâu mà nhiều bạn lại hỏi mình như vậy _(có lẽ các bạn biết đến bitcoin thông qua các sàn cho-nhận là chủ yếu)._
 Thực ra mình biết đến đồng tiền này cũng được 1 thời gian rất lâu rồi. Và như 1 câu trả lời chung cho tất cả mọi người, mình viết ra bài viết này để giải thích cũng như nêu ra các quan điểm riêng của mình về đồng tiền bitcoin này.
 <!--more-->
-![bitcoin-la-gi](https://kiemtiencenter.com/wp-content/uploads/2016/09/bitcoin-la-gi.jpg)
+![bitcoin-la-gi](https://kiemtiencenter.com/wp-content/uploads/2016/09/bitcoin-la-gi.jpg class="img-responsive")
 *   [1\. Bitcoin có phải là 1 đồng tiền ảo ?](#1_Bitcoinco_phai_la_1_dong_tien_ao)
 *   [2\. Bitcoin là gì ?](#2_Bitcoin_la_gi)
 *   [3\. Ví bitcoin là gì ?](#3_Vi_bitcoin_la_gi)
@@ -34,7 +33,7 @@ Còn bitcoin nó lại mang tầm cỡ toàn cầu và được dùng để mua 
 [XEM CHI TIẾT TẠI ĐÂY
 ](http://thekhuong.com/team/)
 Dưới đây là biểu đồ giao động giá bitcoin từ 2010 đến hiện tại :
-![gia-bitcoin](https://kiemtiencenter.com/wp-content/uploads/2016/09/gia-bitcoin.jpg)
+![gia-bitcoin](https://kiemtiencenter.com/wp-content/uploads/2016/09/gia-bitcoin.jpg class="img-responsive")
 Cũng như giá vàng, giá dollar hay giá chứng khoán,…Giá bitcoin cũng được cập nhật vào thời gian thực, bạn có thể lên Google gõ “
 [bitcoin price](https://www.google.com.vn/search?q=bitcoin+price)
 ” để có thông tin về giá bitcoin ở thời điểm hiện tại.
@@ -55,7 +54,7 @@ Vậy cụ thể bitcoin nó là cái gì mà có giá trị trên trởi như v
 ### 
 **2\. Bitcoin là gì ?**
 Bitcoin là một loại tiền tệ kỹ thuật số phân tán, được mã hóa xuất hiện vào năm 2008\. Nó có thể được trao đổi, giao dịch trực tiếp bằng các thiết bị có kết nối Internet mà không cần thông qua một tổ chức tài chính trung gian nào, không có ai quản lý và các giao dịch hoàn toàn.
-![bit-coin-tien-dien-tu](https://kiemtiencenter.com/wp-content/uploads/2016/09/bit-coin-tien-dien-tu.jpg)
+![bit-coin-tien-dien-tu](https://kiemtiencenter.com/wp-content/uploads/2016/09/bit-coin-tien-dien-tu.jpg class="img-responsive")
 Nếu bạn định tìm hiểu chuyên sâu hơn về đồng tiền này 1 cách khoa học, hãy đọc 
 [bài viết này trên Wikipedia](https://vi.wikipedia.org/wiki/Bitcoin)
 , còn không thì bạn chỉ cần hiểu bitcoin là 1 [đồng tiền điện tử](https://kiemtiencenter.com/e-currency/), và bạn có thể trao đổi, mua bán đồng tiền này mà không có 1 tổ chức nào có thể kiểm soát bạn.
@@ -109,7 +108,7 @@ Tuy vậy ở Việt Nam, việc mua bán, mở sàn trung gian giao dịch bitc
 *   _…_
 Nói tóm lại, nhà nước Việt Nam không ủng họ và nêu rõ các rủi ro có thể gặp phải khi sử dụng bitcoin, và chưa có 1 điều luật cụ thể nào về đồng tiền này. Ở nhiều quốc gia khác trên thế giới cũng tương tự, nhà nước miễn trừ trách nhiệm khi người dân sử dụng đồng tiền điện tử không được kiểm soát bởi ngân hàng.
 Ngược lại cũng có nhiều nước nhận ra tiềm năng của đồng tiền này trong giao dịch, trong thương mại điện tử nên đã hợp pháp hóa việc sử dụng bitcoin, nhiều nơi còn có máy ATM bitcoin.
-![may-atm-bitcoin](https://kiemtiencenter.com/wp-content/uploads/2016/09/may-atm-bitcoin.jpg)
+![may-atm-bitcoin](https://kiemtiencenter.com/wp-content/uploads/2016/09/may-atm-bitcoin.jpg class="img-responsive")
 Nhưng với thị trường bitcoin hoạt động náo nhiệt, thương mại điện tử và giao dịch online ngày càng phát triển thì xu hướng người dùng bitcoin ngày càng 1 tăng lên. Khi càng có nhiều người sử dụng thì giá bitcoin tự động sẽ tăng theo, vì bitcoin là 1 đồng tiền có giới hạn, tối đa của nó chỉ là 21 triệu bitcoin _(dự kiến khai thác hết vào năm 2140)_
 ### 
 **7. Thực hư về các trò lừa đảo qua bitcoin.**
