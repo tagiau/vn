@@ -13,7 +13,7 @@
 		<b>{{post.title}}</b>
 		{% if (post.categories) %}<p>
 		{% for cat in post.categories%}
-		<i class="glyphicon glyphicon-folder-open"></i>&nbsp;<a class="btn btn-link" href="{{site.baseurl}}/{{cat}}">{{cat}}</a>&nbsp;
+		<i class="glyphicon glyphicon-folder-open"></i><a class="btn btn-link" href="{{site.baseurl}}/{{cat}}">{{cat}}</a>&nbsp;
 		{% endfor %}</p>
 		{% endif %}
 		<p>{{post.excerpt|strip_html}}
