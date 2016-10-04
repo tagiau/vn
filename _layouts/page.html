@@ -1,5 +1,6 @@
-{% include themes/{{site.default_ui}}/header.html %}
-
+<!DOCTYPE html>
+<html>
+{% include {{site.skin}}/_header %}
 {{ content }}
-
-{% include themes/{{site.default_ui}}/footer.html %}
+{% include {{site.skin}}/_footer %}
+</html>

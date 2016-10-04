@@ -1,0 +1,5 @@
+<div class="row">
+{% for post in site.categories.[name] %}
+  {% include {{site.skin}}/view_grid %}
+{% endfor %}
+</div>
