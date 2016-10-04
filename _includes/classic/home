@@ -15,7 +15,7 @@
   {% if currentdate != date %}
     {% unless forloop.first %}
 	</ul>{% endunless %}
-    <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <b>{{ currentdate }}</b>
     <ul class="nav nav-pills nav-stacked">
     {% assign date = currentdate %}
   {% endif %}
