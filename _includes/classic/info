@@ -35,6 +35,7 @@
 			<li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>
 			{% endfor %}
 		{% endfor %}
+		{% endif %}
 					</div></div>
 					<div class="col-lg-6 hidden-xs"><div class="row">
 						<img src="https://placehold.it/300x200" class="img-responsive" />
