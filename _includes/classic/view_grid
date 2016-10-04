@@ -11,7 +11,10 @@
 		</a>
 	{% endif %}
 		<b>{{post.title}}</b>
-		<p>{{post.tags[0]}}</p>
+		<i class="glyphicon glyphicon-tags"></i>&nbsp;
+		{% for tag in post.tags%}
+		<span>{{tag}}</span>,
+		{% endfor %}
 		<p>{{post.excerpt|strip_html}}
 		<a href="{{site.baseurl}}{{post.url}}">{{site.lang.read_more}}</a></p>
 	</div>
