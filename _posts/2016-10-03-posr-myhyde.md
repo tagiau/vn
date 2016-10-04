@@ -1,5 +1,5 @@
 ---
 layout: post
-title: posr myhyde
+title: post myhyde
 ---
 gui bang mrhyde
