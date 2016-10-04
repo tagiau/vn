@@ -25,21 +25,16 @@
 			<div class="col-md-3 col-lg-4">
 				<div class="row">
 					<div class="col-lg-6"><div class="row">
-			{% if (page.tags) %}		
+			{% if (page.tags) %}
+			<ul class="nav nav-pills nav-stacked">
 		{% for tag in page.tags %}
-{% if tag != page.tag %}
-    {% unless forloop.first %}
-	</ul>{% endunless %}
-    <b>{{tag}}</b>
-    <ul class="nav nav-pills nav-stacked">
-    {% assign page.tag = tag %}
-  {% endif %}
+
+    <li><a class="active">{{tag}}</a></li>
+
 			{% for p in site.tags[tag] %}
 			<li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>
 			{% endfor %}
-{% if forloop.last %}</ul>{% endif %}
 		{% endfor %}
-			{% endif %}
 					</div></div>
 					<div class="col-lg-6 hidden-xs"><div class="row">
 						<img src="https://placehold.it/300x200" class="img-responsive" />
