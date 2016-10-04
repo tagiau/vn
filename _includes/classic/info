@@ -10,7 +10,7 @@
 		<img src="{{site.asseturl}}{{page.id}}/0.jpg" alt="{{page.title}}" class="pull-left img-thumbnail"/>
 		{% endif %}
 	{% endif %}
-				<h3>{{page.title}}</h3>
+				<b>{{page.title}}</b>
 					{{content}}
 		{% if (page.tags) %}
 		<p>
