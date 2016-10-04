@@ -7,7 +7,7 @@
 		{% if x == "http" %}
 		<img src="{{post.thumb}}" alt="{{post.title}}" class="pull-left img-thumbnail"/>
 		{% else %}
-		<img src="{{site.asseturl}}/{{post.id}}/0.jpg" class="pull-left img-thumbnail" alt="{{post.title}}"/>
+		<img src="{{site.asseturl}}{{post.id}}/0.jpg" class="pull-left img-thumbnail" alt="{{post.title}}"/>
 		{% endif %}
 		</a>
 	{% endif %}
