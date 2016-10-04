@@ -4,9 +4,8 @@
 				<div class="thumbnail">
 				<img align="left" src="{{site.asseturl}}{{page.id}}/0.jpg" class="img-thumbnail"/>
 		{% if (page.tags) %}
-		<i class="glyphicon glyphicon-tags"></i>&nbsp;
 		{% for tag in page.tags%}
-		<span>{{tag}}</span>,
+		<i class="glyphicon glyphicon-tags"></i>&nbsp;<span>{{tag}}</span>
 		{% endfor %}
 		{% endif %}
 				<h3>{{page.title}}</h3>

@@ -10,7 +10,7 @@
 				<div class="row">
 					<div class="col-lg-6"><div class="row">
 						<ul class="nav nav-pills nav-stacked">
-						<li class="active"><a href="#">tieu de</a></li>
+						<li class="active"><a href="#">Last post</a></li>
 						<script>
 							for (i=1;i<10;i++){
 							document.write('<li><a href="#'+i+'">link '+i+'</a></li>');
