@@ -1,7 +1,8 @@
 ---
 layout: post
 title: post myhyde
-thumb: http://placehold.it/150x150
+tags: ["Nhan"]
+thumb: http://placehold.it/100x100
 ---
 gui bang mrhyde
 noi dung o day, ho tro html, md ..
