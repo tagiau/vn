@@ -2,6 +2,6 @@
 layout: page
 title: Show post by category
 ---
-{% assign name = page.path|split:'/'|first %}
-<h3>{{name}}</h3>
+{% assign c = page.path|split:'/'|first %}
+<h3>{{c}}</h3>
 {% include {{site.skin}}/cate %}
