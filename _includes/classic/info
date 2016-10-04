@@ -28,9 +28,7 @@
 			{% if (page.tags) %}
 			<ul class="nav nav-pills nav-stacked">
 		{% for tag in page.tags %}
-
-    <li><a class="active">{{tag}}</a></li>
-
+		<li class="active"><a href="{{site.baseurl}}tag#{{tag}}">{{tag}}</a></li>
 			{% for p in site.tags[tag] %}
 			<li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>
 			{% endfor %}
