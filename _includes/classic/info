@@ -2,23 +2,15 @@
 		<div id="main" class="col-md-9 col-lg-8">
 			<div class="row">
 				<div class="thumbnail">
-	{% if (page.thumb) %}
-		{% assign x = page.thumb|slice:0,4 %}
-		{% if x == "http" %}
-		<img src="{{page.thumb}}" alt="{{page.title}}" class="pull-left img-thumbnail"/>
+	{% if (page.thumb) %}{% assign x = page.thumb|slice:0,4 %}{% if x == "http" %}
+		<img src="{{page.thumb}}" alt="{{page.title}}" class="pull-right img-thumbnail"/>
 		{% else %}
-		<img src="{{site.asseturl}}{{page.id}}/0.jpg" alt="{{page.title}}" class="pull-left img-thumbnail"/>
+		<img src="{{site.asseturl}}{{page.id}}/0.jpg" alt="{{page.title}}" class="pull-right img-thumbnail"/>
 		{% endif %}
 	{% endif %}
 				<b>{{page.title}}</b>
 					{{content}}
-		{% if (page.tags) %}
-		<p>
-		{% for tag in page.tags%}
-		<i class="glyphicon glyphicon-tags"></i>&nbsp;<span>{{tag}}</span>
-		{% endfor %}
-		</p>
-		{% endif %}
+		{% if (page.tags) %}<p>{% for tag in page.tags%}<i class="glyphicon glyphicon-tags"></i>&nbsp;<span>{{tag}}</span>{% endfor %}</p>{% endif %}
 				</div>
 			</div>
 		</div><!-- .main -->
@@ -29,9 +21,7 @@
 			<ul class="nav nav-pills nav-stacked">
 		{% for tag in page.tags %}
 		<li class="active"><a href="{{site.baseurl}}/tag#{{tag}}">{{tag}}</a></li>
-			{% for p in site.tags[tag] %}
-			<li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>
-			{% endfor %}
+			{% for p in site.tags[tag] %}<li><a href="{{site.baseurl}}{{p.url}}">{{p.title}}</a></li>{% endfor %}
 		{% endfor %}
 		{% endif %}
 					</div></div>
