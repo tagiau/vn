@@ -10,5 +10,5 @@ lang:
 # markdown: kramdown
 permalink: /:categories/:title
 excerpt_separator: <!--more-->
-paginate: 12
+paginate: 3
 paginate_path: /page:num
