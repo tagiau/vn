@@ -28,8 +28,10 @@
 			{% if (page.tags) %}
 						<ul class="nav nav-pills nav-stacked">
 		
-		{% for post in page.tags%}
-			{% include view_list %}
+		{% for tag in page.tags %}
+			{% for p in site.tags[tag] %}
+			<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+			{% endfor %}
 		{% endfor %}
 		
 						</ul>
