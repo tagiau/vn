@@ -11,6 +11,7 @@
 		</a>
 	{% endif %}
 		<b>{{post.title}}</b>
+		<p>{{post.tags[0]}}</p>
 		<p>{{post.excerpt|strip_html}}
 		<a href="{{site.baseurl}}{{post.url}}">{{site.lang.read_more}}</a></p>
 	</div>

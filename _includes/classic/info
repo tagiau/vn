@@ -6,7 +6,7 @@
 		{% if (page.tags) %}
 		<i class="glyphicon glyphicon-tags"></i>&nbsp;
 		{% for tag in page.tags%}
-		<span>{{tag}}</span>
+		<span>{{tag}}</span>|
 		{% endfor %}
 		{% endif %}
 				<h3>{{page.title}}</h3>
