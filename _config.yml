@@ -1,11 +1,11 @@
 # Site settings
 baseurl: "/vn"
 asseturl: "/assets"
-name: tAgiAu
+name: "tAgiAu"
 skin: "classic"
 
 # Build settings
-#markdown: kramdown
+markdown: kramdown
 permalink: /:categories/:title
 excerpt_separator: "\n\n"
 paginate: 12
