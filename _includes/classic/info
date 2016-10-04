@@ -1,9 +1,13 @@
-<div class="container-fluid"><div class="row">
-	<div class="col-md-9 col-lg-8">
-{% for post in site.posts %}
-  {% include {{site.skin}}/view_grid %}
-{% endfor %}
-			</div><!-- .main -->
+	<div class="container-fluid"><div class="row">
+		<div class="col-md-9 col-lg-8">
+			<div class="row">
+				<div class="thumbnail">
+				<img align="left" src="{{site.asseturl}}{{page.id}}/0.jpg" class="img-thumbnail"/>
+				<h3>{{page.title}}</h3>
+					{{content}}
+				</div>
+			</div>
+		</div><!-- .main -->
 			<div class="col-md-3 col-lg-4">
 				<div class="row">
 					<div class="col-lg-6"><div class="row">

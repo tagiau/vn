@@ -1,5 +1,24 @@
-<div class="row">
+<div class="container-fluid"><div class="row">
+	<div class="col-md-9 col-lg-8">
 {% for post in site.categories.[name] %}
   {% include {{site.skin}}/view_grid %}
 {% endfor %}
-</div>
+			</div><!-- .main -->
+			<div class="col-md-3 col-lg-4">
+				<div class="row">
+					<div class="col-lg-6"><div class="row">
+						<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="#">tieu de</a></li>
+						<script>
+							for (i=1;i<10;i++){
+							document.write('<li><a href="#'+i+'">link '+i+'</a></li>');
+							}
+						</script>
+						</ul>
+					</div></div>
+					<div class="col-lg-6 hidden-xs"><div class="row">
+						<img src="https://placehold.it/300x200" class="img-responsive" />
+					</div></div>
+				</div>
+			</div><!-- .sidebar -->
+</div></div><!-- .container-fulid -->
