@@ -19,3 +19,4 @@ img {
 	<header>
 {% include navi %}
 	</header>
+<hr>
