@@ -1,4 +1,4 @@
-<div class="PageNavigation">
+<div id="PageNavigation" class="row">
   {% if page.previous.url %}
     <a class="pull-left" href="{{site.baseurl}}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
   {% endif %}

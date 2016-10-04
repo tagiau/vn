@@ -1,7 +1,7 @@
 	<div class="container-fluid"><div class="row">
 		<div id="main" class="col-md-9 col-lg-8">
+		{% include pnavi %}
 			<div class="row">
-			{% include pnavi %}
 				<div class="thumbnail">
 	{% if (page.thumb) %}{% assign x = page.thumb|slice:0,4 %}{% if x == "http" %}
 		<img src="{{page.thumb}}" alt="{{page.title}}" class="pull-right img-thumbnail"/>
