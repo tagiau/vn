@@ -2,5 +2,8 @@
 layout: page
 title: Trang chu
 ---
+{% include pagi %}
 
-{% include {{site.skin}}/home %}
+{% for post in paginator.posts %}
+  {% include view_grid %}
+{% endfor %}
