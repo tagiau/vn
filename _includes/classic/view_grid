@@ -12,9 +12,9 @@
 		</a>
 	{% endif %}
 		<b>{{post.title}}</b>
-		<!--p><i class="glyphicon glyphicon-tags"></i>&nbsp;<span>{{post.tag}}</span>
+		<p><i class="glyphicon glyphicon-tags"></i>&nbsp;<span>{{post.tag}}</span>
 		<br>{{post.excerpt|strip_html}}
-		<a href="{{site.baseurl}}{{post.url}}">{{site.lang.read_more}}</a></p-->
+		<a href="{{site.baseurl}}{{post.url}}">{{site.lang.read_more}}</a></p>
 	</div>
 </div>
 </div>

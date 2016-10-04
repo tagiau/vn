@@ -3,6 +3,8 @@ baseurl: "/vn"
 asseturl: "/assets"
 name: "tAgiAu"
 skin: "classic"
+lang:
+ read_more: "... read more"
 
 # Build settings
 # markdown: kramdown
