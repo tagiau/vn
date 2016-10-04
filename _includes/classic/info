@@ -3,12 +3,12 @@
 			<div class="row">
 				<div class="thumbnail">
 				<img align="left" src="{{site.asseturl}}{{page.id}}/0.jpg" class="img-thumbnail"/>
-	{% if (post.thumb) %}
-		{% assign x = post.thumb|slice:0,4 %}
+	{% if (page.thumb) %}
+		{% assign x = page.thumb|slice:0,4 %}
 		{% if x == "http" %}
-		<img src="{{post.thumb}}" alt="{{post.title}}" class="pull-left img-thumbnail"/>
+		<img src="{{page.thumb}}" alt="{{page.title}}" class="pull-left img-thumbnail"/>
 		{% else %}
-		<img src="{{site.asseturl}}{{post.id}}/0.jpg" alt="{{post.title}}" class="pull-left img-thumbnail"/>
+		<img src="{{site.asseturl}}{{page.id}}/0.jpg" alt="{{page.title}}" class="pull-left img-thumbnail"/>
 		{% endif %}
 	{% endif %}
 				<h3>{{page.title}}</h3>
