@@ -11,7 +11,7 @@
 <title>{{page.title}}</title>
 <style>
 img{max-width:100%;}
-#item{height:200px;overflow-y:auto;}
+#item{height:150px;overflow-y:auto;}
 </style>
 </head>
 <body>
