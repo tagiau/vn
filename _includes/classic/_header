@@ -10,10 +10,8 @@
 <link href="favicon.ico" rel="icon">
 <title>{{page.title}}</title>
 <style>
-img {
-    max-width: 100%;
-}
-#item{max-hight:250px;}
+img{max-width:100%;}
+#item{height:250px;overflow-y: scroll;}
 </style>
 </head>
 <body>
