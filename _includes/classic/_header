@@ -17,6 +17,5 @@ img {
 </head>
 <body>
 	<header>
-{% include navi %}
+	{% include navi %}
 	</header>
-<hr>
