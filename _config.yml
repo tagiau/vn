@@ -4,7 +4,7 @@ asseturl: "/assets"
 name: "tAgiAu"
 skin: "classic"
 lang:
- read_more: "... read more"
+ read_more: "...>>"
 
 # Build settings
 # markdown: kramdown
