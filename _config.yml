@@ -1,14 +1,13 @@
 # Site settings
 baseurl: "/vn"
 asseturl: "/assets"
-name: "tAgiAu"
+name: "0jekyll"
 skin: "classic"
 lang:
- read_more: "...>>"
+ read_more: ">xem>"
 
 # Build settings
-# markdown: kramdown
+markdown: redcarpet
 permalink: /:categories/:title
-excerpt_separator: <!--more-->
 paginate: 12
 paginate_path: /page:num
