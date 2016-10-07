@@ -1,8 +1,8 @@
 # Site settings
 baseurl: "/vn"
-asseturl: "/assets"
-name: "0jekyll"
-skin: "classic"
+asseturl: "http://tagiau.net/0jekyll/assets"
+name: "tAgiAu"
+skin: "batman"
 lang:
  read_more: ">xem>"
 

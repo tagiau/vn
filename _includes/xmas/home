@@ -2,7 +2,7 @@
 	<div id="main" class="col-md-9 col-lg-8">
 	{% include adsense %}
 		<div class="row">
-		{% for post in site.categories[c] %}
+		{% for post in site.posts %}
 		{% include {{site.skin}}/view_grid %}
 		{% endfor %}
 		</div>
@@ -12,11 +12,11 @@
 			<div class="col-lg-6">
 			{% include adsense %}
 				<div class="row">
-				{% for post in site.categories[c] %}
+				{% for post in site.posts %}
 					{% assign currentdate = post.date | date: "%Y" %}
 					{% if currentdate != date %}
 						{% unless forloop.first %}</ul>{% endunless %}
-						<b>{{currentdate}}</b>
+						<b class="label label-primary">{{currentdate}}</b>
 						<ul class="nav nav-pills nav-stacked">
 						{% assign date = currentdate %}
 					{% endif %}
@@ -27,9 +27,10 @@
 			</div>
 			<div class="col-lg-6 hidden-xs">
 				<div class="row">
-				<img src="https://placehold.it/300x200" class="img-responsive" />
+				<!-- -->
 				</div>
 			</div>
 		</div>
+	{% include adsense %}
 	</div><!-- #sidebar -->
 </div></div><!-- .container-fulid -->

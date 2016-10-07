@@ -12,8 +12,10 @@
 	<link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 	<title>{{page.title}}</title>
 	<style>
+		body{background:url({{site.asseturl}}/skin/{{site.skin}}/img/xmas-bg.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+		footer{color:#f00;}
 		img{display:block;margin:0 auto;max-width:100%;}
-		#item{height:150px;overflow-y:auto;}
+		.item{color:#fff;}
 	</style>
 </head>
 <body>
