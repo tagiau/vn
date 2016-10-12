@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown syntag
+title: Markdown syntax
 tags: ["Label"]
 thumb: http://placehold.it/100x100
 ---
