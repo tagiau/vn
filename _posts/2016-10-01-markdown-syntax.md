@@ -6,7 +6,8 @@ thumb: http://placehold.it/100x100
 ---
 Nội dung ở đây chấp nhận html, kiểu markdown . tốt nhất có trên 22 từ trước khi sử dụng thẻ html, kiểu markdown
 . Vì skin tự lấy 22 từ ra xem trước
-<pre>
+
+```
 Markdown Syntax Guide
 =====================
 This is an overview of Markdown's syntax.  For more information, visit the [Markdown web site].
@@ -186,4 +187,4 @@ You can make inline `<code>` tags by using code spans.  Use backticks to make a 
 Like code blocks, code spans will be displayed in a monospaced typeface.  Markdown and HTML will not work within them:
  Markdown italicizes things like this: `I *love* it.`
  Don't use the `<font>` tag; use CSS instead.
-</pre>
+```

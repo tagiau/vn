@@ -6,6 +6,7 @@ thumb: http://placehold.it/100x100
 ---
 Nội dung ở đây chấp nhận html, kiểu markdown . tốt nhất có trên 22 từ trước khi sử dụng thẻ html, kiểu markdown
 . Vì skin tự lấy 22 từ ra xem trước
+
 <h4>Emphasis</h4>
 <pre>**<strong>bold</strong>**
 *<em>italics</em>*
