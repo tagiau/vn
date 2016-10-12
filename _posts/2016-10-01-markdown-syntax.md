@@ -4,9 +4,8 @@ title: Markdown syntag
 tags: ["Label"]
 thumb: http://placehold.it/100x100
 ---
-Đây là cụm từ để xem trước. 10 từ để xem trước
-20 từ để xem trước 20 từ để xem trước
-20 từ để xem trước 20 từ để xem trước
+Nội dung ở đây chấp nhận html, kiểu markdown . tốt nhất có trên 22 từ trước khi sử dụng thẻ html, kiểu markdown
+. Vì skin tự lấy 22 từ ra xem trước
 <pre>
 Markdown Syntax Guide
 =====================
