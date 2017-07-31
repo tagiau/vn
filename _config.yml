@@ -1,13 +1,18 @@
 # Site settings
-baseurl: "/vn"
-asseturl: "http://tagiau.net/0jekyll/assets"
-name: "tAgiAu"
-skin: "xmas"
+baseurl: "/vn" # gh-pages
+asseturl: "/vn/assets"
+skin: "classic"
 lang:
- read_more: ">xem>"
-
+ read_more: ">>"
+ showpostby: "Bài cùng mục: "
+ samecat: "Xem thêm cùng mục"
+ sametag: "Xem thêm cùng thẻ"
+ hotpost: "Bài nổi bật"
+ subcat: "Chuyên mục" # name of sub folder
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /:categories/:title
-paginate: 12
+paginate: 10
 paginate_path: /page:num
+
+gems: [jekyll-paginate]
